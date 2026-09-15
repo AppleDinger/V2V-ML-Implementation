@@ -141,5 +141,14 @@ for idx, (name, cm) in enumerate(confusion_matrices.items()):
     axes[idx].set_ylabel("Actual")
     axes[idx].tick_params(axis='x', rotation=45)
 
-plt.tight_layout()
+# Apply exact layout specifications
+plt.subplots_adjust(
+    left=0.125,
+    bottom=0.171,
+    right=0.97,
+    top=0.94,
+    wspace=0.3,
+    hspace=0.76
+)
+
 plt.show()

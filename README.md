@@ -43,8 +43,8 @@ Models are evaluated on **Accuracy**, **Macro F1-Score**, and **Microsecond Infe
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/v2v-transmission-scheduler.git
-cd v2v-transmission-scheduler
+git clone https://github.com/AppleDinger/V2V-ML-Implementation
+cd V2V ML Implementation
 ```
 
 ### 2. Install dependencies
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ### 3. Run the pipeline
 ```bash
-python v2v_scheduler_poc.py
+python script.py
 ```
 
 ---
