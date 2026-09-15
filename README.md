@@ -44,7 +44,7 @@ Models are evaluated on **Accuracy**, **Macro F1-Score**, and **Microsecond Infe
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/AppleDinger/V2V-ML-Implementation
-cd V2V ML Implementation
+cd "V2V ML Implementation"
 ```
 
 ### 2. Install dependencies
@@ -66,10 +66,10 @@ Upon execution, the script produces performance metrics alongside inference late
 ```text
 === Performance & Latency Evaluation ===
         Model  Accuracy  Macro F1-Score  Latency (μs/sample)
-Decision Tree  1.000000        1.000000             1.250000
-Random Forest  0.998000        0.997850            24.500000
-          SVM  0.995000        0.994200            18.750000
-         k-NN  0.989000        0.988100            12.300000
+Decision Tree  0.997000        0.995995             1.432800
+Random Forest  0.998000        0.997240            16.273500
+          SVM  0.950000        0.942883           171.522100
+         k-NN  0.923000        0.918495             6.743900
 ```
 
 *Note: While Random Forest provides high stability, lightweight decision trees or shallow trees are frequently preferred in V2V environments due to sub-2 microsecond inference latencies.*
@@ -80,6 +80,3 @@ Random Forest  0.998000        0.997850            24.500000
 - **Paper**: *When Cryptography Needs a Hand: Practical Post-Quantum Authentication for V2V Communications* (NDSS 2024).
 
 ---
-
-## 📜 License
-This project is open-source under the MIT License.
